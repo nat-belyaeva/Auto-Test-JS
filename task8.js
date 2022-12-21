@@ -1,23 +1,33 @@
-// 8.	Задача:
-//     Написать метод, который принимает массив строк в качестве параметра и выводит
-//     в консоль слово с наибольшим количеством букв. Если таких слов несколько - выводит их все
+/*8.	Задача:
+    Написать метод, который принимает массив строк в качестве параметра и выводит
+    в консоль слово с наибольшим количеством букв. Если таких слов несколько - выводит их все */
 
-function longestWords(arr) {
- const res = [];
- let maxLength = 0;
-  arr.sort((a, b) => b.length - a.length)
-    maxLength = arr[0].length;
-    console.log(maxLength)
-     for (let i = 0; i < arr.length; i++) {
+//=========================#1 ==========================
 
-         if(arr[i].length === maxLength) {
-            res.push(arr[i]);
-             console.log(res)
-      }
-     }
-return res.join(' ');
-    }
-console.log(longestWords([ 'I', 'am', 'learning', 'Javascript', 'javascript', 'javascript']))
+function findBigWords(arr) {
+  let res = arr.filter((el => {
+     return el.length = Math.max(el.map())
+  }))
+    return res;
+}
+console.log(findBigWords([ 'I', 'am', 'learning', 'Javascript', 'javascript', 'javascript']));
+
+// function longestWords(arr) {
+//  const res = [];
+//  let maxLength = 0;
+//   arr.sort((a, b) => b.length - a.length)
+//     maxLength = arr[0].length;
+//     console.log(maxLength)
+//      for (let i = 0; i < arr.length; i++) {
+//
+//          if(arr[i].length === maxLength) {
+//             res.push(arr[i]);
+//              console.log(res)
+//       }
+//      }
+// return res.join(' ');
+//     }
+// console.log(longestWords([ 'I', 'am', 'learning', 'Javascript', 'javascript', 'javascript']))
 
 
 
