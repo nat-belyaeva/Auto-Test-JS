@@ -9,4 +9,4 @@ function evenNumber(arr) {
     return res;
 }
 
-console.log(evenNumber([2, 4, 5, 7, 8]))
+console.log(evenNumber([2, 4, 5, 7, 8]));

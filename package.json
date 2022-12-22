@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Auto JS Test",
   "main": "task10.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nat-belyaeva/Auto-Test-JS/issues"
   },
-  "homepage": "https://github.com/nat-belyaeva/Auto-Test-JS#readme"
+  "homepage": "https://github.com/nat-belyaeva/Auto-Test-JS#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }

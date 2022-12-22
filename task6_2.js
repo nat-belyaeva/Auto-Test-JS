@@ -1,6 +1,6 @@
 // В другом файле описать класс B с несколькими методами, унаследовать его от класса A
 
-import A from './task6.1';
+import A from './task6_1.js';
 class B extends A {
     constructor(name, age, pet, height, eyes, hair) {
         super(name, age, pet);

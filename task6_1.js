@@ -8,13 +8,13 @@ class A {
         this.pet = pet;
     }
         printName() {
-            console.log(`Hello, I'm ${this.name}`);
+            return (`Hello, I'm ${this.name}`);
         }
         printAge() {
-            console.log(`I'm ${this.age}`);
+            return (`I'm ${this.age}`);
         }
         printPet() {
-            console.log(`My favorite pet is ${this.pet}`)
+            return (`My favorite pet is ${this.pet}`)
         }
 
 }

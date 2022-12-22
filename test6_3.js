@@ -1,7 +1,7 @@
 // Ещё в одном файле создать экземпляр класса В и вызвать метод класса A и класса B
 
-import A from './task6.1.js'
-import B from "./task6.2.js";
+import A from './task6_1.js'
+import B from "./task6_2.js";
 
 const class_A = new A("Nat", 38, "cat");
 const class_B = new B("Sasha", 9, "dog", 147, "blue", "blonde" );
@@ -13,7 +13,7 @@ console.log(class_B);
 console.log(class_A.printName());
 console.log(class_A.printAge());
 console.log(class_A.printPet())
-
+console.log("==========////==============")
 // methods class_A;
 console.log(class_B.printName()); // inherited from Class A
 console.log(class_B.printAge());  // inherited from Class A

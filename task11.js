@@ -4,7 +4,7 @@
 // Исходная строка – “Я люблю Javascript”
 // Результат – “Я_люблю_Javascript”
 function replaceSpaces(str) {
-    let res = str.replace(/ /g, '_');
+    let res = str.replace(/\s/g, '_');
     return res;
 }
 

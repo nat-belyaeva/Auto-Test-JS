@@ -7,34 +7,10 @@
     Исходный массив – [‘Minsk’, ‘Moscow’, ‘Berlin’, ‘Toronto’, ‘Paris’, ‘Moscow’]
     Результат - [‘Minsk’, ‘Berlin’, ‘Toronto’]*/
 
-// function goose(arr) {
-//     const res = [];
-//     let gooseArr = ['London', 'Paris', 'Moscow']
-// // const result = arr.filter(el => arr.indexOf(el) !==);
-// //arr2 = arr2.filter(e => !~arr.indexOf(e));
-//
-// arr = arr.filter((el => !~ gooseArr.indexOf(el)));
-//     return arr
-//// }
-//// console.log(goose(['Minsk', 'Moscow', 'Berlin', 'Toronto', 'Paris', 'Moscow']));
 
-// ================================ #1 ================================
-function goose(arr) {
-    const res = [];
-    let gooseArr = ['London', 'Paris', 'Moscow']
-     for(let i = 0; i < arr.length; i++) {
-         if(gooseArr.indexOf(arr[i]) === -1) {
-             res.push(arr[i])
-         }
-     }
-        return res;
-}
-console.log(goose(['Minsk', 'Moscow', 'Berlin', 'Toronto', 'Paris', 'Moscow']));
-
-// =================== #2 ======================
 function findGoose(arr) {
-    let gooseArr = ['London', 'Paris', 'Moscow']
-    let res = arr.filter((el => !gooseArr.includes(el)))
+    let gooseArr = ['London', 'Paris', 'Moscow'];
+    let res = arr.filter((el => !gooseArr.includes(el)));
     return res;
 }
 console.log(findGoose(['Minsk', 'Moscow', 'Berlin', 'Toronto', 'Paris', 'Moscow']));
