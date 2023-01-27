@@ -1,7 +1,7 @@
 //4.	Продемонстрировать работу switch…case
 //1 - 'Monday', 2 - 'Tuesday', 3 - 'Wednesday', 4 - 'Thursday', 5 - 'Friday', 6 - 'Saturday', 7 - 'Sunday'.
 // Any other number - 'Wrong day'.
-let numberOfDay = 5;
+let numberOfDay = 7;
 switch(numberOfDay) {
 case 0:
     console.log('Sunday');
@@ -24,8 +24,9 @@ case 0:
   case 6:
     console.log('Saturday');
     break;
-  case 7:
+    case 7:
     console.log('Sunday');
+    break;
   default:
    console.log('Wrong day');
  }
